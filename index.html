@@ -7,11 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+    </style>
     <header>Header</header>
     <section>
         <h1>Akulova header</h1>
         <p>text</p>
     </section>
     <footer>Footer</footer>
+    <script>
+        window.onload = function() {
+            setTimeout(function() {
+                document.body.style.backgroundColor = "black";
+            }, 5000);
+        };
+    </script>
 </body>
 </html>
