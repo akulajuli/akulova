@@ -55,9 +55,10 @@
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
-    font-family: Gupter-Regular;
+    font-family: 'Gupter-Regular';
+    font-weight: 100;
     color: #7F4F06;
 }
 header{
@@ -91,6 +92,13 @@ header>div{
     justify-content: space-between;
     height: 60px;
     align-items: center;
+}
+.home-text{
+    text-align: center;
+    color: #5C5C5C;
+    font-family: 'CourierPrime-Regular';
+    max-width: 369px;
+    margin: 0 auto;
 }
 footer{
     background-color: black;
