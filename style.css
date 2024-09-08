@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: 'EudoxusSans-Lignt';
-    src: url(/fonts/eudoxus-sans/EudoxusSans-Light.ttf) format('ttf');
+    src: url(/fonts/eudoxus-sans/EudoxusSans-Light.ttf);
 }
 @font-face {
     font-family: 'EudoxusSans-Medium';
@@ -50,16 +50,23 @@
     font-family: 'Gupter-Regular';
     src: url(/fonts/Gupter/Gupter-Regular.ttf) format('ttf');
 }
+@font-face {
+    font-family: 'Courier-New';
+    src: url(/fonts/courier-new/Courier-New-Italic.ttf);
+}
 
 *{
     margin: 0;
 }
 h1{
-    font-size: 100px;
+    font-size: 123px;
     text-align: center;
     font-family: 'Gupter-Regular';
     font-weight: 100;
     color: #7F4F06;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 0.9;
 }
 header{
     background-color: #2D2721;
@@ -82,6 +89,8 @@ footer>div{
 }
 section>div{
     flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 section{
     width: 100%;
@@ -93,12 +102,41 @@ header>div{
     height: 60px;
     align-items: center;
 }
+.logo{
+    font-family: 'Gupter-Regular';
+}
+nav>a{
+    margin-left: 30px;
+    font-family: 'EudoxusSans-ExtraLight';
+    font-size: 12px;
+}
 .home-text{
     text-align: center;
     color: #5C5C5C;
     font-family: 'CourierPrime-Regular';
     max-width: 369px;
     margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+.home-buttons{
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home-buttons>a{
+    color: #5C5C5C;
+    font-family: 'Courier-New';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+}
+.arrow-button{
+    height: 25px;
+    margin: 0 0 -6px 15px;
 }
 footer{
     background-color: black;
