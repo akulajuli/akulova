@@ -48,7 +48,7 @@
 }
 @font-face {
     font-family: 'Gupter-Regular';
-    src: url(/fonts/Gupter/Gupter-Regular.ttf) format('ttf');
+    src: url(/fonts/Gupter/Gupter-Regular.ttf);
 }
 @font-face {
     font-family: 'Courier-New';
