@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'EudoxusSans-Bold';
-    src: url(/fonts/eudoxus-sans/EudoxusSans-Bold.ttf) format('ttf');
+    src: url(/fonts/eudoxus-sans/EudoxusSans-Bold.ttf);
 }
 @font-face {
     font-family: 'EudoxusSans-ExtraBold';
-    src: url(/fonts/eudoxus-sans/EudoxusSans-ExtraBold.ttf) format('ttf');
+    src: url(/fonts/eudoxus-sans/EudoxusSans-ExtraBold.ttf);
 }
 @font-face {
     font-family: 'EudoxusSans-ExtraLight';
-    src: url(/fonts/eudoxus-sans/EudoxusSans-ExtraLight.ttf) format('ttf');
+    src: url(/fonts/eudoxus-sans/EudoxusSans-ExtraLight.ttf);
 }
 @font-face {
     font-family: 'EudoxusSans-Lignt';
@@ -16,35 +16,35 @@
 }
 @font-face {
     font-family: 'EudoxusSans-Medium';
-    src: url(/fonts/eudoxus-sans/EudoxusSans-Medium.ttf) format('ttf');
+    src: url(/fonts/eudoxus-sans/EudoxusSans-Medium.ttf);
 }
 @font-face {
     font-family: 'EudoxusSans-Regular';
-    src: url(/fonts/eudoxus-sans/EudoxusSans-Regular.ttf) format('ttf');
+    src: url(/fonts/eudoxus-sans/EudoxusSans-Regular.ttf);
 }
 @font-face {
     font-family: 'CourierPrime-Bold';
-    src: url(/fonts/Courier_Prime/CourierPrime-Bold.ttf) format('ttf');
+    src: url(/fonts/Courier_Prime/CourierPrime-Bold.ttf);
 }
 @font-face {
     font-family: 'CourierPrime-BoldItalic';
-    src: url(/fonts/Courier_Prime/CourierPrime-BoldItalic.ttf) format('ttf');
+    src: url(/fonts/Courier_Prime/CourierPrime-BoldItalic.ttf);
 }
 @font-face {
     font-family: 'CourierPrime-Italic';
-    src: url(/fonts/Courier_Prime/CourierPrime-Italic.ttf) format('ttf');
+    src: url(/fonts/Courier_Prime/CourierPrime-Italic.ttf);
 }
 @font-face {
     font-family: 'CourierPrime-Regular';
-    src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf) format('ttf');
+    src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf);
 }
 @font-face {
     font-family: 'Gupter-Bold';
-    src: url(/fonts/Gupter/Gupter-Bold.ttf) format('ttf');
+    src: url(/fonts/Gupter/Gupter-Bold.ttf);
 }
 @font-face {
     font-family: 'Gupter-Medium';
-    src: url(/fonts/Gupter/Gupter-Medium.ttf) format('ttf');
+    src: url(/fonts/Gupter/Gupter-Medium.ttf);
 }
 @font-face {
     font-family: 'Gupter-Regular';
