@@ -87,7 +87,7 @@ footer>div{
     margin: 0 auto;
     padding: 0 10px;
 }
-section>div{
+.home-div{
     flex-direction: column;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -128,7 +128,8 @@ nav>a{
     flex-direction: row;
     justify-content: space-between;
 }
-.home-buttons>a{
+.home-buttons>a,
+.home-projects-button{
     color: #5C5C5C;
     font-family: 'Courier-New';
     text-transform: uppercase;
@@ -150,11 +151,30 @@ body{
     flex-direction: column;
     height: 100dvh;
 }
+.home-projects{
+    max-width: 1300px;
+    padding: 0 30px 60px;
+    display: block;
+}
+.home-projects-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.home-projects-img>img{
+    width: 100%;
+    border-radius: 4vw;
+}
+.home-projects-button{
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+    padding-top: 20px;
+}
 @media only screen and (max-width: 768px){
     h1{
         font-size: 90px;
     }
-    section>div{
+    .home-div{
         padding-top: 80px;
         padding-bottom: 80px;
     }
@@ -167,7 +187,8 @@ body{
     .home-buttons{
         max-width: 500px;
     }
-    .home-buttons>a{
+    .home-buttons>a,
+    .home-projects-button{
         font-size: 15px;
     }
     .arrow-button{
@@ -179,7 +200,7 @@ body{
     h1{
         font-size: 60px;
     }
-    section>div{
+    .home-div{
         padding-top: 60px;
         padding-bottom: 60px;
     }.home-text{
@@ -191,7 +212,8 @@ body{
     .home-buttons{
         max-width: 320px;
     }
-    .home-buttons>a{
+    .home-buttons>a,
+    .home-projects-button{
         font-size: 15px;
     }
     .arrow-button{
