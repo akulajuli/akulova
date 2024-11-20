@@ -163,12 +163,60 @@ body{
 }
 .home-projects-img>img{
     width: 100%;
-    border-radius: 4vw;
+    border-radius: 40px;
 }
 .home-projects-button{
     grid-row: 3 / 3;
     grid-column: 3 / 3;
     padding-top: 20px;
+}
+.brown-section{
+    background-color: #645C55;
+}
+.brown-section>div{
+    padding: 80px 60px;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.our-mission-text{
+    padding-right: 50px;
+    max-width: 500px;
+    width: 70%;
+}
+.our-mission-text>h3{
+    font-family: 'Gupter-Regular';
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #FFFDF8;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.our-mission-text>p{
+    font-family: 'EudoxusSans-Lignt';
+    font-size: 18px;
+    color: #FFFDF8;
+    margin-bottom: 30px;
+}
+.our-mission-img>img{
+    border-radius: 16%;
+    max-width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+.our-mission-img{
+    width: 30%;
+    max-width: 500px;
+}
+.our-mission-text>a{
+    color: #FFFDF8;
+    font-family: 'Courier-New';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 10px;
+    display: block;
 }
 @media only screen and (max-width: 768px){
     h1{
