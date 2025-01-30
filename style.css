@@ -180,7 +180,19 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
+.about-yuliia>div{
+    padding: 80px 60px;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .our-mission-text{
+    padding-right: 50px;
+    max-width: 500px;
+    width: 70%;
+}
+.about-page{
     padding-right: 50px;
     max-width: 500px;
     width: 70%;
@@ -197,6 +209,12 @@ body{
     font-family: 'EudoxusSans-Lignt';
     font-size: 18px;
     color: #FFFDF8;
+    margin-bottom: 30px;
+}
+.about-page>p{
+    font-family: 'EudoxusSans-Lignt';
+    font-size: 18px;
+    color: #5c5c5c;
     margin-bottom: 30px;
 }
 .our-mission-img>img{
@@ -218,18 +236,39 @@ body{
     padding-top: 10px;
     display: block;
 }
+.about-page>a{
+    color: #402905;
+    font-family: 'Courier-New';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 10px;
+    display: block;
+}
 .order-now{
     display: block;
     text-align: center;
     padding: 80px 0;
 }
-.order-now>h2{
+.order-now>h2,
+h2{
     font-family: 'Gupter-Regular';
     color: #7F4F06;
     font-size: 90px;
     font-weight: 100;
     line-height: 0.9;
     margin: 0 0 30px 0;
+}
+.italic-font{
+    font-family: 'CourierPrime-Italic'!important;
+    color: #5c5c5c !important;
+    font-size: 25px !important;
+    font-weight: 100;
+    line-height: 0.9;
+    margin: 0 0 30px 0;
+}
+.about-page>.about-info{
+    max-width: 428px;
 }
 footer a {
     color: #FFFDF8;
